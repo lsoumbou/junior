@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-transform: uppercase; */
+
+}
+
+/* bts sio blog */
+.mini_bloc{
+    /* font-family: 'ubuntu' , sans-serif; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.mini_bloc_enfant{
+    width: 500px;
+    /* text-align: justify; */
+    margin-top: 30px;
+}
+.mini_bloc_slook{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.mini_bloc_slook ul>li{
+    margin: 10px 0;
+
+}
+.mini_bloc_enfant p:nth-child(1){
+     font-size: 20px;
+     color:black;
+     font-weight: 700;
+     margin-bottom: 10px;
+}
+.mini_bloc_enfant span{
+    margin-top: 15px;
+}
+.mini_bloc_enfant .titre{
+    font-family: sans-serif ;
+  
+}
+.image_bts>img{
+    width: 500px;
+}
+
+.bts_blog {
+    text-align: center;
+    font-size: 1.4rem;
+
+}
+
+.bts_blogs{
+    margin-top:30px ;
+    display: inline;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'ubuntu' , sans-serif;
+}
+ 
+.big_blog h2{
+   margin-bottom: 20px;
+}
+.big_blog  ul>li{
+    margin-bottom: 15px;
+}
+.mini_blog{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bts_blog h1{
+    font-size: 40px;
+    margin:40px ;
+    font-family: 'Ubuntu' , sans-serif;   
+}
+
+.bts_blog .paragraf{
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+/* fin du bloc bts sio */
+
+
+@media screen and (max-width: 600px){
+    .mini_bloc{
+        display: flex;
+        flex-direction: column;
+    }
+    .bts_blog h1{
+        margin-top: 30px;
+        font-size: 25px;
+    }
+
+    .mini_blog{
+        display: flex;
+        flex-direction: column;
+    }
+    h2{
+        font-size: 17px;
+        text-align: center;
+    }
+    .mini_bloc_enfant .titre{
+        font-size: 16px;
+        color: darkgreen;
+        margin-bottom: 10px;
+        font-weight: 600;
+        /* flex-wrap: wrap; */
+    }
+    .mini_bloc_enfant{
+        width: 300px;
+        padding-left: 18px;
+    }
+    .image_bts>img{
+        width: 300px;
+         
+    }
+   
+}
+
+@media screen and (max-width:1080px){
+
+    .mini_bloc_enfant{
+        width: 400px;
+        padding-left: 18px;
+    }
+
+}
+@media screen and (max-width:900px){
+
+    .mini_bloc_enfant{
+        width: 320px;
+        padding-left: 18px;
+    }
+    .mini_bloc{
+        display: flex;
+        flex-direction: column;
+    }
+    .mini_blog{
+        display: flex;
+        flex-direction: column;
+    }
+
+} 
