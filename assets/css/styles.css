@@ -384,6 +384,19 @@ img {
   color: deepskyblue;
 }
 
+.images_vbn{
+  margin-left: 30%;
+}
+.para_stage{
+  margin: 0 50px;
+}
+
+.junior{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
 .contact__button {
   display: block;
   border: none;
